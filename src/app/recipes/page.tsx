@@ -28,6 +28,8 @@ export default async function Cart() {
             <div className="w-64 h-full bg-white rounded-lg shadow-md overflow-hidden">
               <Image
                 className="w-full h-48 object-cover"
+                width={500}  
+                height={300}
                 src={item.image}
                 alt="Recipe"
               />

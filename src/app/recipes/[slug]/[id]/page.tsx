@@ -33,7 +33,8 @@ export default async function page({params} : {params : {id :any}}) {
         <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
         <div className=" text-black font-bold text-3xl shadow-lg">{data.name}</div>
       <div className="relative">
-        <Image className="w-full h-72 object-cover" src={data.image} alt={data.name} />
+        <Image                 width={500}  
+                height={300} className="w-full h-72 object-cover" src={data.image} alt={data.name} />
       </div>
 
       <div className="p-6">
