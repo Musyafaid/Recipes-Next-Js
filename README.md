@@ -23,8 +23,8 @@ Follow these steps to set up the project locally:
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/your-username/recipes-app.git
-   cd recipes-app
+   https://github.com/Musyafaid/Recipes-Next-Js.git
+   cd recipes
    ```
 
 2. **Install Dependencies**  
@@ -46,21 +46,7 @@ Follow these steps to set up the project locally:
    npm start
    ```
 
-## 📂 Project Structure  
 
-```plaintext
-recipes-app/
-├── public/           # Static assets (e.g., images, icons)
-├── pages/            # Next.js pages
-│   ├── index.tsx     # Homepage with all recipes
-│   ├── recipes/      # Dynamic routes for recipes
-│   │   ├── [id].tsx  # Recipe details
-│   │   ├── tags/     # Filter recipes by tags
-├── components/       # Reusable components (e.g., RecipeCard, TagsList)
-├── styles/           # Tailwind CSS configuration
-├── README.md         # Project documentation
-└── package.json      # Project metadata and dependencies
-```
 
 ## 🔧 Usage  
 
