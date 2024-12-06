@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 const getRecipe = async () => {
   const res = await fetch("https://dummyjson.com/recipes");
@@ -25,7 +26,7 @@ export default async function Cart() {
         {dataRecipes.map((item: any, index: any) => (
           <li className="relative" key={index}>
             <div className="w-64 h-full bg-white rounded-lg shadow-md overflow-hidden">
-              <img
+              <Image
                 className="w-full h-48 object-cover"
                 src={item.image}
                 alt="Recipe"

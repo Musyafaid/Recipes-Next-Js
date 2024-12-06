@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
+import Image from 'next/image';
 
 const getRecipeDetail = async (id:Number) =>{
     const res = await fetch (`https://dummyjson.com/recipes/${id}`)
@@ -32,7 +33,7 @@ export default async function page({params} : {params : {id :any}}) {
         <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
         <div className=" text-black font-bold text-3xl shadow-lg">{data.name}</div>
       <div className="relative">
-        <img className="w-full h-72 object-cover" src={data.image} alt={data.name} />
+        <Image className="w-full h-72 object-cover" src={data.image} alt={data.name} />
       </div>
 
       <div className="p-6">
@@ -76,7 +77,7 @@ export default async function page({params} : {params : {id :any}}) {
         {/* Tags */}
         <div className="mt-4 flex flex-wrap gap-2">
           {data.tags.map((tag, index) => (
-            <Link
+            <Link key={index}
             className="p-2 w-fit bg-gray-600 text-white shadow whitespace-nowrap"
             href={`/recipes/tags/${tag}`}
           >
