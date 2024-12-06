@@ -1,10 +1,12 @@
 import React from 'react'
-import Cart from './recipes/page'
+import Tags from './tags'
+import Cart from '../page'
 
 export default function page() {
   return (
     <div>
-      <Cart/>
+      <Tags />
+      <Cart />
     </div>
   )
 }
