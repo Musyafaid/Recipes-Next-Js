@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Berikut adalah **README.md** yang relevan dengan fitur yang sudah tersedia dalam proyek Anda:
 
-## Getting Started
+---
 
-First, run the development server:
+# 📖 Recipes App  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A simple and responsive recipe application built with **Next.js 13**. Users can browse recipes, view detailed recipe pages, and filter recipes by tags.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 Features  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🔍 **View All Recipes**: Explore a collection of recipes with images and basic details.  
+- 📋 **Recipe Details**: View complete details for each recipe, including ingredients and instructions.  
+- 🏷️ **Filter by Tags**: Search for recipes by specific tags.  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🛠️ Tech Stack  
 
-## Learn More
+- **Frontend**: [Next.js 13](https://nextjs.org/), [React](https://reactjs.org/), [Tailwind CSS](https://tailwindcss.com/)  
+- **API**: [DummyJSON Recipes API](https://dummyjson.com/)  
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Installation  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Follow these steps to set up the project locally:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Clone the Repository**  
+   ```bash
+   https://github.com/Musyafaid/Recipes-Next-Js.git
+   cd recipes
+   ```
 
-## Deploy on Vercel
+2. **Install Dependencies**  
+   Ensure you have Node.js installed, then run:  
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Run the Development Server**  
+   Start the application locally:  
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. **Build for Production** (Optional)  
+   ```bash
+   npm run build
+   npm start
+   ```
+
+
+
+## 🔧 Usage  
+
+### Browse All Recipes  
+Visit the homepage to see a list of recipes, each with a brief description and image.  
+
+### View Recipe Details  
+Click on a recipe to see its full details, including:  
+- Ingredients  
+- Instructions  
+- Preparation time  
+- Difficulty  
+
+### Filter by Tags  
+Use the tag filtering feature to find recipes based on categories such as "Vegetarian," "Asian," or "Desserts."
+
+## 🖼️ Screenshots  
+
+### Homepage  
+![Homepage Screenshot](https://via.placeholder.com/800x400.png?text=Homepage)  
+
+### Recipe Details  
+![Recipe Details Screenshot](https://via.placeholder.com/800x400.png?text=Recipe+Details)
+
+## 🌐 Demo  
+
+[Live Demo](#) (Update with your demo URL when available)
+
+## 📜 License  
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Feel free to customize the placeholders (e.g., URLs, screenshots, features) based on your actual project!
